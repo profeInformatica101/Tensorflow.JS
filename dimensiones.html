@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimensiones</title>
+</head>
+<body>
+    <p>La salida se muestra usando la consola de Javascript</p>
+    <img src="https://www.mathsisfun.com/geometry/images/dimensions.svg">
+    <br>
+    <img src="https://www.researchgate.net/publication/228287161/figure/fig1/AS:552874851528709@1508827044962/The-One-Dimensional-Two-Dimensional-and-Three-Dimensional-Coordinate-Systems.png">
+    <script>
+
+        /** 
+         * Estas matrices de rango uno son ideales 
+         * para capturar conjuntos de secuencias 
+         * y datos relacionados 
+         */ 
+        let array_una_dimension = [1,2,3,4];
+        console.log("1 dimension: ");
+            console.log( array_una_dimension);
+            /**
+             * La matriz de rango dos captura cuadrículas de datos relacionados. 
+             * Por ejemplo, 
+             * una matriz 2D puede almacenar las coordenadas X e Y de un grafico.
+             */
+            let array_dos_dimensiones = [
+                [1,2], [3,4], [3,4]   
+            ];
+            console.log("2 dimensiones: ");
+            console.log( array_dos_dimensiones);
+
+            /**
+             * El rango tres es el último rango comúnmente visual para nosotros, 
+             * meros humanos. 
+             * Es difícil visualizar más allá de las tres dimensiones.
+             */
+             let array_tres_dimensiones = [
+                [
+                  [1,2,3],
+                  [4,5,6]
+                ], 
+                [
+                  [7,8,9],
+                  [3,2,1]
+                ]
+            ];
+            console.log("3 dimensiones: ");
+            console.log( array_tres_dimensiones);
+
+
+    </script>
+</body>
+</html>
